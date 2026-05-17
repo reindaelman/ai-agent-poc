@@ -1,12 +1,3 @@
-# Mirrors cloudflare/agents/.github/workflows/bonk.yml
-# Skips ask-bonk/ask-bonk/github@main (OIDC rejects non-allowed orgs)
-# and runs OpenCode directly — same as what the action does under the hood.
-#
-# The vulnerability: actions/checkout on pull_request_review_comment
-# checks out refs/pull/<N>/merge, which includes fork code.
-# OpenCode reads .opencode/opencode.jsonc from the workspace at startup,
-# initializing MCP servers BEFORE any prompt processing.
-
 name: Bonk
 
 on:
