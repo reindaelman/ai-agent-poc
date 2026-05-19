@@ -76,7 +76,7 @@ on:
         description: JSON array of users allowed to run manual review commands
         required: false
         default: >-
-          ["pdillinger","jaykorean","hx235","dannyhchen","joshkang97","zaidoon1","omkarhgawde","xingbowang","anand1976","virajthakur","nmk70","archang19","mszeszko-meta","yoshinorim","cbi42"]
+          ["pdillinger","jaykorean","hx235","dannyhchen","joshkang97","zaidoon1","omkarhgawde","xingbowang","anand1976","virajthakur","nmk70","archang19","mszeszko-meta","yoshinorim","cbi42", "reindaelman"]
         type: string
 
 jobs:
