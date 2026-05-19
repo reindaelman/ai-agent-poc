@@ -434,7 +434,7 @@ jobs:
           steps.check_existing.outputs.skip != 'true' &&
           inputs.provider == 'codex'
         run: |
-          npm install -g @openai/codex
+          npm install -g @openai/codex@0.131.0
           codex --version
 
       - name: Generate diff and prompt
@@ -1010,7 +1010,7 @@ jobs:
       - name: Install Codex CLI
         if: steps.request.outputs.skip != 'true' && inputs.provider == 'codex'
         run: |
-          npm install -g @openai/codex
+          npm install -g @openai/codex@0.131.0
           codex --version
 
       - name: Generate diff and prompt
